@@ -1,0 +1,12 @@
+<div class="todo-list">
+    <ul>
+
+        <todo-item *ngFor="let item of store.archive"
+                   [item]="item">
+        </todo-item>
+
+        <div class="nothing-done" *ngIf="store.isLazy">
+            Got a lazy day?
+        </div>
+    </ul>
+</div>

@@ -1,0 +1,8 @@
+<div class="new-todo">
+
+    <input class="form-control" placeholder="What needs to be done?" autofocus
+           [(ngModel)]="newItemText" (keyup.enter)="addItem()">
+
+    <button class="btn btn-primary" (click)="addItem()">Add</button>
+
+</div>

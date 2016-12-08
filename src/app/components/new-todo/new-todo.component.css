@@ -1,0 +1,14 @@
+.new-todo{
+    align-self: center;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.form-control {
+    width: 500px !important;
+    display: inline-block;
+}
+
+.btn {
+    margin-bottom: 3px;
+}

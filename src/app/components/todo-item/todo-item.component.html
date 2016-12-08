@@ -1,0 +1,13 @@
+<li class="well">
+    <div class="view">
+
+        <label>{{item.text}}</label>
+
+        <button *ngIf="!item.completed"
+                (click)="doneClicked()"
+                class="btn btn-danger">
+            x
+        </button>
+
+    </div>
+</li>
